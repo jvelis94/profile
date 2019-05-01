@@ -3,8 +3,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2 {
     color: #5D0E9F;
+}
+
+h3 {
+    color: #000000;
 }
 
 #image_of_joel {
@@ -19,7 +23,7 @@ h1, h2, h3 {
     text-align: center;
     background-color: #ffffff; 
     border-radius: 10px;
-    box-shadow: 0.5px 0.5px 0.5px #AAA8A7; 
+    box-shadow: 10px 10px 50px -10px rgba(221,196,221,1); 
 }
 
 p {
@@ -39,8 +43,14 @@ button {
     font-family: 'Montserrat', sans-serif;
 }
 
+button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 button:hover {
-    box-shadow: 5px 5px 5px #DDC4DD;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .social-media-icons {
@@ -63,20 +73,20 @@ button:hover {
 
   .fa-facebook {
     background: #ffffff;
-    color: #AAA8A7;
+    color: #3C5A99;
   }
   
   .fa-twitter {
     background: #ffffff;
-    color: #AAA8A7;
+    color: #1DA1F2;
   }
 
   .fa-linkedin {
     background: #ffffff;
-    color: #AAA8A7;
+    color: #0077B5;
   }
   
   .fa-instagram {
     background: #ffffff;
-    color: #AAA8A7;
+    color: #FD1D1D;
   }
