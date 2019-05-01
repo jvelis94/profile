@@ -28,7 +28,7 @@ p {
 }
 
 button {
-    background-color: #DDC4DD;
+    background-color: #5D0E9F;
     padding: 10px;
     border-radius: 8%;
     margin-bottom: 10px;
@@ -40,7 +40,7 @@ button {
 }
 
 button:hover {
-    box-shadow: 5px 5px 5px #4D3088;
+    box-shadow: 5px 5px 5px #DDC4DD;
 }
 
 .social-media-icons {
