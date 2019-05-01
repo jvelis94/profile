@@ -4,7 +4,7 @@ body {
 }
 
 h1, h2 {
-    color: #5D0E9F;
+    color: #1D3461;
 }
 
 h3 {
@@ -23,7 +23,7 @@ h3 {
     text-align: center;
     background-color: #ffffff; 
     border-radius: 10px;
-    box-shadow: 10px 10px 50px -10px rgba(221,196,221,1); 
+    box-shadow: 10px 10px 50px -30px #1D3461; 
 }
 
 p {
@@ -32,12 +32,12 @@ p {
 }
 
 button {
-    background-color: #5D0E9F;
+    background-color: #1D3461;
     padding: 10px;
     border-radius: 8%;
     margin-bottom: 10px;
-    font-size: 16px;
-    font-weight: 800;
+    font-size: 14px;
+    font-weight: 520;
     cursor: pointer;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
@@ -94,10 +94,10 @@ button:hover {
   @media (max-width: 720px) {
     /* For a screen < 720px, this CSS will be read */
     .profile-boxes {
-        width: 85%;
+        width: 80%;
     }
 
     .social-media-icons {
-        width: 85%;
+        width: 80%;
     }
   }
