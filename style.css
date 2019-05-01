@@ -90,3 +90,14 @@ button:hover {
     background: #ffffff;
     color: #FD1D1D;
   }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .profile-boxes {
+        width: 70%;
+    }
+
+    .social-media-icons {
+        width: 70%;
+    }
+  }
